@@ -1,0 +1,182 @@
+@media (max-width: 800px) {
+  .container {
+    width: 95%;
+  }
+  .elastic-studios-home-section {
+    background-image: url('../images/smallLanding\ .png');
+    background-position: center center;
+    position: relative;
+  }
+  .elastic-studios-home-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .elastic-studios-header-flex {
+    justify-content: center;
+  }
+  .elastic-studios-header-flex .links {
+    display: none;
+  }
+
+  .content-container {
+    justify-content: center;
+  }
+  .content-container h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .first-section-content .btn-con {
+    justify-content: center;
+  }
+  .elastic-studios-full-section .content h3 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .elastic-studios-full-section {
+    height: 80vh;
+  }
+  .elastic-studios-footer-container .footer-item-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .elastic-studios-footer-container .footer-item {
+    padding: 10px 10px;
+  }
+  .elastic-studios-footer-container .footer-item h3,
+  .elastic-studios-footer-container .footer-item p {
+    text-align: center;
+  }
+
+  .elastic-studios-footer-container .footer-item.middle {
+    border: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .elastic-studios-full-section {
+    height: 70vh;
+  }
+
+  .elastic-studios-full-section .con {
+    margin: 0 40px;
+    /* justify-content: center; */
+    justify-content: flex-end;
+    transform: translateY(0);
+  }
+
+  .content-container h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .elastic-studios-full-section.right-section .btn-con {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: red; */
+  }
+
+  .first-section-content .btn-con button {
+    border-radius: 56px;
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .elastic-studios-full-section .content h3 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .elastic-studios-full-section .content .text-con::after,
+  .elastic-studios-full-section.right-section .content .text-con::after,
+  .elastic-studios-full-section .content .text-con::before,
+  .elastic-studios-full-section.right-section .content .text-con::before {
+    display: none;
+  }
+  .elastic-studios-full-section .content p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .elastic-studios-full-section button {
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .elastic-studios-full-section .content h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .elastic-studios-full-section .content p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  .elastic-studios-full-section button {
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+@media (max-height: 450px) {
+  .elastic-studios-full-section {
+    height: 100vh;
+  }
+  .elastic-studios-full-section .content .text-con::after,
+  .elastic-studios-full-section.right-section .content .text-con::after,
+  .elastic-studios-full-section .content .text-con::before,
+  .elastic-studios-full-section.right-section .content .text-con::before {
+    display: none;
+  }
+  .elastic-studios-full-section .con {
+    /* margin: 0 40px; */
+    /* justify-content: center; */
+    transform: translateY(5%);
+  }
+  .elastic-studios-full-section .content h3 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .elastic-studios-full-section .content p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .elastic-studios-full-section button {
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content-container h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .elastic-studios-full-section.right-section .btn-con {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: red; */
+  }
+}
